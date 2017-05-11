@@ -15,7 +15,7 @@ app.use(function(request, response, next) {
 });
 
 const connection = massive.connectSync({
-    connectionString: "postgres://postgres:mysqlserver@localhost:5432/kokiri_shop"
+    connectionString: "postgres://mifgwfiv:zH5PjNhIXDQ53a2qEYV54hFEp5I_wBId@stampy.db.elephantsql.com:5432/mifgwfiv"
 });
 
 app.set("db", connection);

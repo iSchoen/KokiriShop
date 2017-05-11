@@ -32,9 +32,9 @@
 </script>
 
 <style scoped>
-/*.header {
-    margin-bottom: 1.8vh;
-}*/
+.header {
+    overflow-x: hidden;
+}
 .fa-icon {
     display: none;
     color: white;
