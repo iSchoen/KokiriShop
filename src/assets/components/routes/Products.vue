@@ -120,7 +120,7 @@ export default {
 
 .products-wrapper {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
 }
 
 .product-background {
@@ -145,6 +145,10 @@ export default {
     border-radius: 15px;
 }
 
+.flickity-viewport {
+    position: fixed;
+}
+
 .carousel {
     overflow-x: hidden;
     height: 110vh;
@@ -159,6 +163,10 @@ export default {
     align-items: center;
     width: 100vw;
     margin: 3vh 0;
+}
+
+.is-selected {
+    height: 110vh;
 }
 
 .button-previous {
@@ -490,5 +498,11 @@ export default {
         font-size: 8.5vw;
         width: 70vw;
     }
+}
+
+@media(width: 1280px) and (height: 800px) {
+    /*products-wrapper {
+        height: 200vh;
+    }*/
 }
 </style>

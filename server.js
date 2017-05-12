@@ -6,7 +6,7 @@ const Vue = require('vue');
 Vue.use(require('vue-resource'));
 
 var app = module.exports = express();
-app.use(express.static(__dirname));
+app.use(express.static(__dirname, './dist'));
 
 app.use(function(request, response, next) {
   response.header("Access-Control-Allow-Origin", "*");
